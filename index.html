@@ -1,0 +1,2854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zouq Al-Khamis Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+    <nav class="navbar">
+        <div class="nav-container">
+            
+            <!-- Logo Section -->
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="./pics/logo-white.jpeg" alt="Karachi Haleem Logo" class="logo-img">
+                </a>
+                <div class="brand-text">
+                    <h2>Zouq Al-Khamis</h2>
+                    <span>Asian & Arabic Cuisine</span>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+
+            <!-- Call to Action -->
+            <div class="nav-actions">
+                <a href="https://wa.me/966561783605?text=Hello%20I%20would%20like%20to%20order!" 
+                   class="order-btn" 
+                   target="_blank">
+                   Order Now
+                </a>
+            </div>
+
+            <!-- Hamburger for Mobile -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Zouq Al-Khamis Restaurant</h1>
+            <p>Discover a delicious fusion of Arabic and Asian cuisines, freshly prepared with the finest ingredients. From fragrant biryanis to savory kebabs, every dish is made to delight.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">View Menu</a>
+                <a href="https://wa.me/966561783605?text=Hello%20I%20would%20like%20to%20order!" class="btn-secondary" target="_blank">Order Now</a>
+            </div>
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Fast Delivery</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-star"></i>
+                    <span>Premium Quality</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <span>Fresh Daily</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./pics/home-pic.jpeg" alt="Delicious Haleem Bowl">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Special Menu</h2>
+                <p>Discover our authentic dishes, prepared with the finest ingredients and traditional recipes</p>
+            </div>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All Items</button>
+                <button class="category-btn" data-category="chicken-curry">Chicken Curry</button>
+                <button class="category-btn" data-category="mutton-beef">Mutton & Beef</button>
+                <button class="category-btn" data-category="vegetarian">Vegetarian</button>
+                <button class="category-btn" data-category="rice">Rice</button>
+                <button class="category-btn" data-category="seafood">Sea Food</button>
+                <button class="category-btn" data-category="bbq">Chicken BBQ</button>
+                <button class="category-btn" data-category="al-faham">Al Faham</button>
+                <button class="category-btn" data-category="mutton-beef-bbq">Mutton/Beef BBQ</button>
+                <button class="category-btn" data-category="special-karahi">Special Karahi</button>
+                <button class="category-btn" data-category="breakfast">Breakfast</button>
+                <button class="category-btn" data-category="roti-bread">Roti/Breads</button>
+                <button class="category-btn" data-category="pakistani-sweets">Pakistani Sweets</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="appetizers">Appetizers</button>
+                <button class="category-btn" data-category="drinks">Drinks</button>
+                <button class="category-btn" data-category="chinese">Chinese/Fast Food</button>
+                <button class="category-btn" data-category="roll">Roll Items</button>
+                <button class="category-btn" data-category="hot-drinks">Hot Drinks</button>
+              </div>
+
+            <div class="menu-grid">
+
+                <!-- 🥘 CURRY MASALA - CHICKEN ITEMS -->
+                <!-- Chicken Tandoori Masala -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/tandoori-masala.jpg" alt="Chicken Tandoori Masala">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Tandoori Masala</h3>
+    <p>Spicy and flavorful tandoori-style chicken cooked in masala</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken Tikka Masala -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-tikka-masala.jpg" alt="Chicken Tikka Masala">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Tikka Masala</h3>
+    <p>Grilled chicken tikka chunks in rich tomato-based masala</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Butter Chicken -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/butter-chicken.jpg" alt="Butter Chicken">
+  </div>
+  <div class="menu-content">
+    <h3>Butter Chicken</h3>
+    <p>Creamy and rich butter chicken in tomato and butter gravy</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken Curry -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-curry.jpg" alt="Chicken Curry">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Curry</h3>
+    <p>Traditional chicken curry with spices and herbs</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken White Karahi -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-white-karahi.jpg" alt="Chicken White Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken White Karahi</h3>
+    <p>Boneless chicken cooked in creamy white gravy with spices</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 17<br>Full: SR 35</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken Karahi -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/Chicken-Karahi.jpg" alt="Chicken Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Karahi</h3>
+    <p>Classic spicy chicken karahi cooked with tomatoes and green chilies</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 15<br>Full: SR 30</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken Green Chili -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/green-chili-chiken.jpg" alt="Chicken Green Chili">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Green Chili</h3>
+    <p>Hot and spicy chicken dish with green chilies and herbs</p>
+    <div class="menu-footer">
+      <span class="price">SR 24</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-dry.jpg" alt="Chicken Dry">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Dry</h3>
+    <p>Tender chicken cooked with aromatic spices for a rich dry curry flavor.</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-boneless-karahi.jpg" alt="Chicken Boneless Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Boneless Karahi</h3>
+    <p>Boneless chicken simmered in a spicy tomato-based karahi sauce.</p>
+    <div class="menu-footer">
+      <span class="price">SR 24</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-ginger.jpg" alt="Chicken Ginger">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Ginger</h3>
+    <p>Spicy chicken curry flavored with fresh ginger for a zesty kick.</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/Chicken-Jalfrezi.jpg" alt="Chicken Jalfrezi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Jalfrezi</h3>
+    <p>Chicken stir-fried with bell peppers, onions, and tangy tomato gravy.</p>
+    <div class="menu-footer">
+      <span class="price">SR 24</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/dry-chicken-chilli-rice.jpg" alt="Dry Chicken Chilli with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Dry Chicken Chilli with Rice</h3>
+    <p>Spicy dry chicken chilli served with hot steamed rice.</p>
+    <div class="menu-footer">
+      <span class="price">SR 26</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Egg Kofta Chicken -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/egg-kofta-chickne.jpg" alt="Egg Kofta Chicken">
+  </div>
+  <div class="menu-content">
+    <h3>Egg Kofta Chicken</h3>
+    <p>Spicy chicken meatballs with egg center in curry gravy</p>
+    <div class="menu-footer">
+      <span class="price">SR 16</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Haleem Chicken/Beef -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/haleem.jpg" alt="Haleem Chicken/Beef">
+  </div>
+  <div class="menu-content">
+    <h3>Haleem Chicken/Beef</h3>
+    <p>Slow-cooked lentil and meat dish with chicken or beef</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 15<br>Full: SR 16</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+                
+<!-- 🍛 CURRY MASALA - MUTTON / BEEF ITEMS -->
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/mutton-keema.jpg" alt="Mutton Fresh Qeema">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Fresh Qeema</h3>
+    <p>Fresh minced mutton cooked with traditional spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/Mutton-masala.jpg" alt="Mutton Fresh Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Fresh Karahi</h3>
+    <p>Mutton cooked with rich and spicy masala gravy</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 25<br>Full: SR 50</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/mutton-white-karahi.jpg" alt="Mutton Fresh White Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Fresh White Karahi</h3>
+    <p>Delicious white karahi made from fresh mutton</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 30<br>Full: SR 60</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/mutton-malai-handi.jpg" alt="Mutton Fresh Malai Handi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Fresh Malai Handi</h3>
+    <p>Creamy handi with tender pieces of fresh mutton</p>
+    <div class="menu-footer">
+      <span class="price">SR 30</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/beef-qeema-karahi.jpg" alt="Beef Qeema Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Qeema Karahi</h3>
+    <p>Beef mince karahi cooked in desi style</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/beef-tawa-qeema.jpg" alt="Beef Tawa Qeema">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Tawa Qeema</h3>
+    <p>Beef mince cooked on flat pan with spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/maghaz.jpg" alt="Magaz">
+  </div>
+  <div class="menu-content">
+    <h3>Magaz</h3>
+    <p>Delicacy made from brain meat in a spicy curry</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/bhindi-gosht.jpg" alt="Bhindi Gosht">
+  </div>
+  <div class="menu-content">
+    <h3>Bhindi Gosht</h3>
+    <p>Okra cooked with tender meat and spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/Palak-Gosht.jpg" alt="Palak Gosht">
+  </div>
+  <div class="menu-content">
+    <h3>Palak Gosht</h3>
+    <p>Spinach cooked with tender mutton or beef</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/dal-gosht.jpg" alt="Daal Gosht">
+  </div>
+  <div class="menu-content">
+    <h3>Daal Gosht</h3>
+    <p>Lentils cooked with meat for a hearty dish</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef">
+  <div class="menu-image">
+    <img src="./pics/beef-nihari.jpeg" alt="Beef Nihari">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Nihari</h3>
+    <p>Rich, slow-cooked beef stew with aromatic spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 🥗 VEGETARIAN / DAAL ITEMS -->
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/vegetable-curry.jpg" alt="Mix Vegetable">
+  </div>
+  <div class="menu-content">
+    <h3>Mix Vegetable</h3>
+    <p>Mix Vegetable</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/bhindi.jpg" alt="Bhindi">
+  </div>
+  <div class="menu-content">
+    <h3>Bhindi</h3>
+    <p>Bhindi</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/Chana-dal.jpg" alt="Daal Chana">
+  </div>
+  <div class="menu-content">
+    <h3>Daal Chana</h3>
+    <p>Daal Chana</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/dal-maash.jpg" alt="Daal Maash">
+  </div>
+  <div class="menu-content">
+    <h3>Daal Maash</h3>
+    <p>Daal Maash</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/aloo-palak.jpg" alt="Aloo Palak">
+  </div>
+  <div class="menu-content">
+    <h3>Aloo Palak</h3>
+    <p>Aloo Palak</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/aloo-gobi.jpg" alt="Aloo Gobhi">
+  </div>
+  <div class="menu-content">
+    <h3>Aloo Gobhi</h3>
+    <p>Aloo Gobhi</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/Dal-Makhani.jpg" alt="Daal Makhni">
+  </div>
+  <div class="menu-content">
+    <h3>Daal Makhni</h3>
+    <p>Daal Makhni</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="vegetarian">
+  <div class="menu-image">
+    <img src="./pics/shahi-dal.jpg" alt="Special Shahi Daal">
+  </div>
+  <div class="menu-content">
+    <h3>Special Shahi Daal</h3>
+    <p>Special Shahi Daal</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍚 RICE VARIETY -->
+<div class="menu-item" data-category="rice">
+  <div class="menu-image">
+    <img src="./pics/white-rice.jpg" alt="White Rice (Plain)">
+  </div>
+  <div class="menu-content">
+    <h3>White Rice (Plain)</h3>
+    <p>White Rice (Plain)</p>
+    <div class="menu-footer">
+      <span class="price">SR 7</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="rice">
+  <div class="menu-image">
+    <img src="./pics/biryani-rice.jpg" alt="Biryani Rice (Plain)">
+  </div>
+  <div class="menu-content">
+    <h3>Biryani Rice (Plain)</h3>
+    <p>Biryani Rice (Plain)</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="rice">
+  <div class="menu-image">
+    <img src="./pics/chicken-biryani.jpg" alt="Chicken Biryani">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Biryani</h3>
+    <p>Chicken Biryani</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 22<br>Full: SR 44</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="rice">
+  <div class="menu-image">
+    <img src="./pics/mutton-biryani.jpg" alt="Mutton Biryani">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Biryani</h3>
+    <p>Mutton Biryani</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="rice">
+  <div class="menu-image">
+    <img src="./pics/prawn-biryani.jpg" alt="Prawn Biryani">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Biryani</h3>
+    <p>Prawn Biryani</p>
+    <div class="menu-footer">
+      <span class="price">SR 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🐟 SEA FOOD -->
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fish-masala.jpg" alt="Fish Masala">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Masala</h3>
+    <p>Fish Masala</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/Shrimp-Masala.jpg" alt="Prawn Masala">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Masala</h3>
+    <p>Prawn Masala</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/prawn-butter.jpg" alt="Prawn Butter">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Butter</h3>
+    <p>Juicy prawns cooked in creamy butter sauce with herbs.</p>
+    <div class="menu-footer">
+      <span class="price">SR 30</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/Lahori-Fried-Fish.jpg" alt="Lahori Fish">
+  </div>
+  <div class="menu-content">
+    <h3>Lahori Fish</h3>
+    <p>Lahori Fish</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 20<br>Full: SR 40</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fish-shashlik.jpg" alt="Fish Shashlik">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Shashlik</h3>
+    <p>Fish Shashlik</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fish-shash-rice.png" alt="Fish Shashlik w/ Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Shashlik w/ Rice</h3>
+    <p>Fish Shashlik w/ Rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/prawn-shashlik.jpg" alt="Prawn Shashlik">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Shashlik</h3>
+    <p>Prawn Shashlik</p>
+    <div class="menu-footer">
+      <span class="price">SR 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/prawn-shashlik-rice.jpg" alt="Prawn Shashlik w/ Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Shashlik w/ Rice</h3>
+    <p>Prawn Shashlik w/ Rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 35</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fish-fillet.jpg" alt="Fish Fillet">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Fillet</h3>
+    <p>Fish Fillet</p>
+    <div class="menu-footer">
+      <span class="price">SR 40</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fish-rice.jpg" alt="Fish Fried Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Fried Rice</h3>
+    <p>Fish Fried Rice</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="seafood">
+  <div class="menu-image">
+    <img src="./pics/fries.jpg" alt="French Fries">
+  </div>
+  <div class="menu-content">
+    <h3>French Fries</h3>
+    <p>French Fries</p>
+    <div class="menu-footer">
+      <span class="price">SR 7</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍗 CHICKEN BBQ ITEMS -->
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/mix-bbq-platter.jpg" alt="Mix BBQ Platter">
+  </div>
+  <div class="menu-content">
+    <h3>Mix BBQ Platter</h3>
+    <p>A grand BBQ platter with assorted items</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 50<br>Full: SR 100</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/grill2seekh.jpg" alt="Mix Grill 2 Seekh">
+  </div>
+  <div class="menu-content">
+    <h3>Mix Grill 2 Seekh</h3>
+    <p>Mixed grill platter with 2 seekh kebabs</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/malai-boti.jpg" alt="Chicken Malai Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Malai Boti</h3>
+    <p>Creamy and tender chicken boti grilled to perfection</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chicken-boti.jpg" alt="Chicken Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Boti</h3>
+    <p>Juicy boneless chicken chunks grilled over charcoal</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chicken-boti-bone.jpeg" alt="Chicken Boti (with Bone)">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Boti (with Bone)</h3>
+    <p>Grilled chicken boti with bone for traditional flavor</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chicken-bihari-boti.png" alt="Chicken Behari Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Behari Boti</h3>
+    <p>Spicy Behari-style marinated chicken boti</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chicken-green-boti.jpeg" alt="Chicken Green Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Green Boti</h3>
+    <p>Succulent chicken cubes marinated in fresh green herbs and spices.</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/Chicken-Shish-Tawook.jpg" alt="Chicken Shish Tawok">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Shish Tawok</h3>
+    <p>Minced chicken skewers grilled with Lebanese-inspired spices.</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/grilled-tandoori-chicken.jpg" alt="Chicken Tandoori Tikka">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Tandoori Tikka</h3>
+    <p>Classic tandoori-marinated chicken grilled to perfection.</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/achari-boti.jpg" alt="Chicken Shangrila Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Shangrila Boti</h3>
+    <p>Chicken boti marinated with tangy achari spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/afghani-boti.jpg" alt="Chicken Afghani Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Afghani Boti</h3>
+    <p>Afghani-style creamy grilled chicken</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chicken-kebab.jpg" alt="Chicken Reshmi Kebab">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Reshmi Kebab</h3>
+    <p>Traditional spiced minced chicken kebabs</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/fried-tikka.png" alt="Chicken Fried Tikka">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Fried Tikka</h3>
+    <p>Fried variation of tikka for a crispy twist</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 24<br>Full: SR 48</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/afghani-tikka.jpg" alt="Chicken Afghan Tikka">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Afghan Tikka</h3>
+    <p>Rich, creamy, and mildly spiced Afghani tikka</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/katsuri-kebab.png" alt="Chicken Kasturi Kebab">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Kasturi Kebab</h3>
+    <p>Special kebabs infused with fenugreek (kasturi) flavor</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/chapli-kabab.jpg" alt="Chapli Kabab 2pcs">
+  </div>
+  <div class="menu-content">
+    <h3>Chapli Kabab 2pcs</h3>
+    <p>Special kebabs infused with fenugreek (kasturi) flavor</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/gola-kabab.png" alt="Chicken Gola Kebab">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Gola Kebab</h3>
+    <p>Minced chicken rolled into soft round kebabs</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+<div class="menu-item" data-category="bbq">
+  <div class="menu-image">
+    <img src="./pics/fish-tikka.png" alt="Fish Tikka">
+  </div>
+  <div class="menu-content">
+    <h3>Fish Tikka</h3>
+    <p>Spiced grilled fish pieces with smoky BBQ flavor</p>
+    <div class="menu-footer">
+      <span class="price">SR 22</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 🔥 CHICKEN AL FAHAM -->
+<div class="menu-item" data-category="al-faham">
+  <div class="menu-image">
+    <img src="./pics/chicken-awsal.jpg" alt="Chicken Awsal">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Awsal</h3>
+    <p>Grilled chicken pieces marinated with Middle Eastern spices.</p>
+    <div class="menu-footer">
+      <span class="price">Half-boiled: SR 16<br>Boiled: SR 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="al-faham">
+  <div class="menu-image">
+    <img src="./pics/chicken-awsal-rice.png" alt="Chicken Awsal with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Awsal with Rice</h3>
+    <p>Flavorful grilled chicken served alongside fragrant rice.</p>
+    <div class="menu-footer">
+      <span class="price">Half-boiled: SR 20<br>Boiled: SR 40</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="al-faham">
+  <div class="menu-image">
+    <img src="./pics/alfaham.jpg" alt="Chicken Al Faham">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Al Faham</h3>
+    <p>Full portion of deliciously grilled Chicken Al Faham</p>
+    <div class="menu-footer">
+      <span class="price">Half-boiled: SR 16<br>Boiled: SR 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="al-faham">
+  <div class="menu-image">
+    <img src="./pics/alfahamrice.jpg" alt="Chicken Al Faham with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Al Faham with Rice</h3>
+    <p>Grilled Chicken Al Faham served with flavorful rice</p>
+    <div class="menu-footer">
+      <span class="price">Half-boiled: SR 22<br>Boiled: SR 44</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 🐄 MUTTON / BEEF BBQ -->
+<div class="menu-item" data-category="mutton-beef-bbq">
+  <div class="menu-image">
+    <img src="./pics/beef-boti.png" alt="Beef Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Boti</h3>
+    <p>Juicy beef cubes marinated and grilled to perfection</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef-bbq">
+  <div class="menu-image">
+    <img src="./pics/beef-kebab.jpg" alt="Beef Kabab">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Kabab</h3>
+    <p>Succulent beef kebabs seasoned with spices and grilled</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef-bbq">
+  <div class="menu-image">
+    <img src="./pics/beef-gola-kabab.jpg" alt="Beef Gola Kabab">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Gola Kabab</h3>
+    <p>Juicy beef kebabs blended with aromatic spices and herbs.</p>
+    <div class="menu-footer">
+      <span class="price">SR 18</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef-bbq">
+  <div class="menu-image">
+    <img src="./pics/afghanti-boti-mutton.jpg" alt="Mutton Afghan Boti">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Afghan Boti</h3>
+    <p>Tender Afghan-style marinated mutton grilled to smoky perfection</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="mutton-beef-bbq">
+  <div class="menu-image">
+    <img src="./pics/mutton-chops.jpg" alt="Mutton Chops">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Chops 3pcs</h3>
+    <p>Deliciously spiced and grilled mutton chops</p>
+    <div class="menu-footer">
+      <span class="price">SR 40</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🥘 SPECIAL KARAHI & BUTT DISHES -->
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/Screenshot 2025-08-08 081151.png" alt="Chicken Butt Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Butt Karahi</h3>
+    <p>Signature Butt-style chicken karahi rich in spices and flavor</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 17<br>Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/chicken-shanwaari-karahi.jpg" alt="Chicken Shanwaari Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Shanwaari Karahi</h3>
+    <p>Traditional Shanwaari chicken karahi with deep flavors</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 17<br>Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/charsi-karahi.jpg" alt="Chicken Charsi Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Charsi Karahi</h3>
+    <p>Famous Peshawari-style Charsi chicken karahi</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 17<br>Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/mutton-butt-karahi.jpg" alt="Mutton Butt Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Butt Karahi</h3>
+    <p>Signature Butt-style mutton karahi cooked with fresh spices</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 30<br>Half: SR 60<br>Full: SR 120</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/mutton-shaami-karahi.jpg" alt="Mutton Shanwaari Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Shanwaari Karahi</h3>
+    <p>Traditional Shanwaari mutton karahi rich in flavor</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 17<br>Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="special-karahi">
+  <div class="menu-image">
+    <img src="./pics/mutton-charsi-karahi.jpg" alt="Mutton Charsi Karahi">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton Charsi Karahi</h3>
+    <p>Authentic Charsi-style mutton karahi with aromatic spices</p>
+    <div class="menu-footer">
+      <span class="price">Quarter: SR 17<br>Half: SR 35<br>Full: SR 70</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍳 BREAKFAST -->
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/mughlai.jpg" alt="Mutton/Beef Mughlai">
+  </div>
+  <div class="menu-content">
+    <h3>Mutton/Beef Mughlai</h3>
+    <p>Rich Mughlai-style mutton or beef curry cooked with aromatic spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 15</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/goat-liver.jpeg" alt="Fresh Goat Liver">
+  </div>
+  <div class="menu-content">
+    <h3>Fresh Goat Liver</h3>
+    <p>Freshly cooked goat liver seasoned with traditional spices.</p>
+    <div class="menu-footer">
+      <span class="price">SR 15</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/chicken-mughlai.jpg" alt="Chicken Mughlai">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Mughlai</h3>
+    <p>Creamy Mughlai-style chicken curry with royal flavors</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/shakshouka.jpg" alt="Shakshouka">
+  </div>
+  <div class="menu-content">
+    <h3>Shakshouka</h3>
+    <p>Eggs poached in a spicy tomato and pepper sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/lentils.jpg" alt="Lentil">
+  </div>
+  <div class="menu-content">
+    <h3>Lentil</h3>
+    <p>Simple and flavorful cooked lentils served with spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/fried-eggs.png" alt="Fried Egg">
+  </div>
+  <div class="menu-content">
+    <h3>Fried Egg</h3>
+    <p>Sunny side up or fried to perfection</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/omelette.jpg" alt="Omelette">
+  </div>
+  <div class="menu-content">
+    <h3>Omelette</h3>
+    <p>Fluffy omelette cooked with onions, tomatoes, and spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/paya.jpg" alt="Paya">
+  </div>
+  <div class="menu-content">
+    <h3>Paya</h3>
+    <p>Traditional slow-cooked trotters curry rich in flavor</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/Paya-2.jpg" alt="Paya (Package)">
+  </div>
+  <div class="menu-content">
+    <h3>Paya (Package)</h3>
+    <p>Traditional paya curry served in a packaged portion</p>
+    <div class="menu-footer">
+      <span class="price">SR 16</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <div class="menu-image">
+    <img src="./pics/halwa-puri.png" alt="Halwa Puri Package">
+  </div>
+  <div class="menu-content">
+    <h3>Halwa Puri Package</h3>
+    <p>Traditional breakfast combo with halwa, puri, and chana</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🫓 ROTI / BREADS -->
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/paratha.jpg" alt="Sada Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Sada Paratha</h3>
+    <p>Plain crispy paratha served hot and fresh</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/chana-paratha.jpg" alt="Chana Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Chana Paratha</h3>
+    <p>Stuffed paratha with spiced chickpea filling</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/aloo-paratha.jpg" alt="Aloo Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Aloo Paratha</h3>
+    <p>Golden brown paratha stuffed with seasoned potatoes</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/mooli-paratha.png" alt="Mooli Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Mooli Paratha</h3>
+    <p>Paratha stuffed with spiced radish mixture</p>
+    <div class="menu-footer">
+      <span class="price">SR 4</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/anda-paratha.jpg" alt="Andha Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Andha Paratha</h3>
+    <p>Paratha with an egg filling or coating</p>
+    <div class="menu-footer">
+      <span class="price">SR 4</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/tandoori-paratha.jpg" alt="Tandoori Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Tandoori Paratha</h3>
+    <p>Flaky paratha baked fresh in a traditional tandoor oven.</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/naan.jpg" alt="Tandoori Roti">
+  </div>
+  <div class="menu-content">
+    <h3>Tandoori Roti 2pcs</h3>
+    <p>Freshly baked roti from the tandoor oven</p>
+    <div class="menu-footer">
+      <span class="price">SR 1</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/poori-paratha.jpg" alt="Puri Paratha">
+  </div>
+  <div class="menu-content">
+    <h3>Puri Paratha</h3>
+    <p>Two deep-fried puris served fresh</p>
+    <div class="menu-footer">
+      <span class="price">SR 1</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/roghni-naan.jpg" alt="Rogen Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Rogni Naan</h3>
+    <p>Fluffy naan bread brushed with butter</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/butter-naan.jpg" alt="Butter Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Butter Naan</h3>
+    <p>Soft naan bread brushed generously with butter</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/kalwani-naan.png" alt="Kalwanji Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Kalwanji Naan</h3>
+    <p>Special naan bread prepared with traditional recipe</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/garlic-naan.jpg" alt="Garlic Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Garlic Naan</h3>
+    <p>Soft naan topped with fresh garlic and herbs</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/sheer-maal.jpg" alt="Sheer Maal">
+  </div>
+  <div class="menu-content">
+    <h3>Sheer Maal</h3>
+    <p>Large naan bread with a rich buttery texture</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/taftaan.jpg" alt="Taftan Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Taftan Naan</h3>
+    <p>Persian-style slightly sweet naan bread</p>
+    <div class="menu-footer">
+      <span class="price">SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roti-bread">
+  <div class="menu-image">
+    <img src="./pics/kulcha.jpg" alt="Kulcha Naan">
+  </div>
+  <div class="menu-content">
+    <h3>Kulcha Naan</h3>
+    <p>Fluffy kulcha bread baked in a tandoor oven</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍧 PAKISTANI SWEETS -->
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/jalebi.jpg" alt="Jalebi (KG)">
+  </div>
+  <div class="menu-content">
+    <h3>Jalebi (KG)</h3>
+    <p>Golden crispy spirals soaked in sugar syrup</p>
+    <div class="menu-footer">
+      <span class="price">KG 16</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/gulab-jamun.jpg" alt="Gulab Jaman (KG)">
+  </div>
+  <div class="menu-content">
+    <h3>Gulab Jaman (KG)</h3>
+    <p>Soft and syrupy milk-solid dumplings</p>
+    <div class="menu-footer">
+      <span class="price">KG 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/rasgulla.png" alt="Ras Gulle (KG)">
+  </div>
+  <div class="menu-content">
+    <h3>Ras Gulle (KG)</h3>
+    <p>Spongy cheese balls soaked in sugar syrup</p>
+    <div class="menu-footer">
+      <span class="price">KG 32</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/gajar-halwa.jpg" alt="Carrot Halwa (KG)">
+  </div>
+  <div class="menu-content">
+    <h3>Carrot Halwa (KG)</h3>
+    <p>Traditional carrot pudding cooked with milk, sugar, and ghee</p>
+    <div class="menu-footer">
+      <span class="price">KG 60</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/akhrot-halwa.jpeg" alt="Akhrot Halwa">
+  </div>
+  <div class="menu-content">
+    <h3>Akhrot Halwa</h3>
+    <p>Rich walnut halwa cooked in ghee for a decadent treat.</p>
+    <div class="menu-footer">
+      <span class="price">KG 60</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="pakistani-sweets">
+  <div class="menu-image">
+    <img src="./pics/lauki-halwa.jpg" alt="Loki Halwa (KG)">
+  </div>
+  <div class="menu-content">
+    <h3>Loki Halwa (KG)</h3>
+    <p>Sweet bottle gourd pudding cooked with milk and sugar</p>
+    <div class="menu-footer">
+      <span class="price">KG 60</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍮 DESSERTS -->
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/custard.jpg" alt="Custard">
+  </div>
+  <div class="menu-content">
+    <h3>Custard</h3>
+    <p>Classic creamy custard served chilled with fruits or toppings</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/kheer.jpg" alt="Kheer">
+  </div>
+  <div class="menu-content">
+    <h3>Kheer</h3>
+    <p>Traditional Pakistani rice pudding made with milk, sugar, and cardamom</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/zarda.jpg" alt="Zarda">
+  </div>
+  <div class="menu-content">
+    <h3>Zarda</h3>
+    <p>Sweet yellow rice cooked with sugar, nuts, and raisins</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/rasmalai.jpg" alt="Ras Malai">
+  </div>
+  <div class="menu-content">
+    <h3>Ras Malai</h3>
+    <p>Soft cheese patties soaked in sweetened milk flavored with cardamom</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/delight.jpg" alt="Delight">
+  </div>
+  <div class="menu-content">
+    <h3>Delight</h3>
+    <p>Light and creamy dessert made with layers of sweet flavors</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="desserts">
+  <div class="menu-image">
+    <img src="./pics/sundae.jpg" alt="Sundae Sweet">
+  </div>
+  <div class="menu-content">
+    <h3>Sundae Sweet</h3>
+    <p>Light and creamy dessert made with sweet flavors</p>
+    <div class="menu-footer">
+      <span class="price">SR 5</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🧊 APPETIZERS & SOUPS -->
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/green-salad.jpg" alt="Green Salad">
+  </div>
+  <div class="menu-content">
+    <h3>Green Salad</h3>
+    <p>Fresh seasonal vegetables served with a light dressing</p>
+    <div class="menu-footer">
+      <span class="price">Half: SR 6<br>Full: SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/raita.jpg" alt="Raita">
+  </div>
+  <div class="menu-content">
+    <h3>Raita</h3>
+    <p>Refreshing yogurt-based side dish with herbs and spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/Russian-Salad.jpg" alt="Russian Salad">
+  </div>
+  <div class="menu-content">
+    <h3>Russian Salad</h3>
+    <p>Creamy salad with vegetables, fruits, and mayonnaise</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/veg-soup.jpg" alt="Chicken Veg Soup">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Veg Soup</h3>
+    <p>Warm and comforting soup with chicken and fresh vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 8</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/mixed-appetizer.jpg" alt="Mixed Appetizer">
+  </div>
+  <div class="menu-content">
+    <h3>Mixed Appetizer</h3>
+    <p>Assortment of starters to begin your meal</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/mixed-appetizer.jpg" alt="Mixed Appetizer">
+  </div>
+  <div class="menu-content">
+    <h3>Mixed Appetizer</h3>
+    <p>Assortment of starters to begin your meal</p>
+    <div class="menu-footer">
+      <span class="price">SR 15</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/Hot-and-sour-soup.jpg" alt="Hot & Sour Soup">
+  </div>
+  <div class="menu-content">
+    <h3>Hot & Sour Soup</h3>
+    <p>Spicy and tangy soup with vegetables and choice of meat</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="appetizers">
+  <div class="menu-image">
+    <img src="./pics/aloo-samosa.jpg" alt="Aloo Samosa">
+  </div>
+  <div class="menu-content">
+    <h3>Aloo Samosa</h3>
+    <p>Tasty mixture of potatoes filled in Samosa</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 🧃 DRINKS -->
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/water.jpg" alt="Water">
+  </div>
+  <div class="menu-content">
+    <h3>Water</h3>
+    <p>Fresh bottled drinking water</p>
+    <div class="menu-footer">
+      <span class="price">SR 1</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/combo.png" alt="Pepsi / 7up / Mirinda">
+  </div>
+  <div class="menu-content">
+    <h3>Pepsi / 7up / Mirinda 240ml</h3>
+    <p>Choice of chilled carbonated soft drinks</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/pepsi-320ml.jpeg" alt="Pepsi 320 ml">
+  </div>
+  <div class="menu-content">
+    <h3>Pepsi 320 ml</h3>
+    <p>Chilled 320 ml Pepsi to refresh your taste buds.</p>
+    <div class="menu-footer">
+      <span class="price">SR 2.5</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/pepsi-family.jpg" alt="Pepsi Family">
+  </div>
+  <div class="menu-content">
+    <h3>Pepsi Family</h3>
+    <p>Large family-sized bottle of Pepsi</p>
+    <div class="menu-footer">
+      <span class="price">1L: SR 5<br>1.5L: SR 9</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/laban.jpg" alt="Laban">
+  </div>
+  <div class="menu-content">
+    <h3>Laban</h3>
+    <p>Refreshing traditional Middle Eastern yogurt drink</p>
+    <div class="menu-footer">
+      <span class="price">200ml: SR 2<br>300ml: SR 3<br>500ml: SR 5<br>1.5ml: SR 6</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/yogurt.jpg" alt="Yogurt">
+  </div>
+  <div class="menu-content">
+    <h3>Yogurt</h3>
+    <p>Plain fresh yogurt served chilled</p>
+    <div class="menu-footer">
+      <span class="price">SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/lassi.jpg" alt="Special Pakistani Lassi">
+  </div>
+  <div class="menu-content">
+    <h3>Special Pakistani Lassi</h3>
+    <p>Sweet or salted yogurt-based traditional drink</p>
+    <div class="menu-footer">
+      <span class="price">SR 5</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="drinks">
+  <div class="menu-image">
+    <img src="./pics/orange.jpg" alt="Orange Juice">
+  </div>
+  <div class="menu-content">
+    <h3>Orange Juice</h3>
+    <p>Freshly squeezed orange juice</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- 🍜 CHINESE / FAST FOOD -->
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/honey-bbq-wings.png" alt="Honey BBQ Wings (10 pcs)">
+  </div>
+  <div class="menu-content">
+    <h3>Honey BBQ Wings (10 pcs)</h3>
+    <p>Juicy chicken wings glazed in sweet and smoky honey BBQ sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/sands-wings.png" alt="Sweet & Sour Wings (10 pcs)">
+  </div>
+  <div class="menu-content">
+    <h3>Sweet & Sour Wings (10 pcs)</h3>
+    <p>Crispy wings tossed in tangy sweet & sour sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/crispy-chicken-tenders.jpg" alt="Crispy Chicken Strips (5 pcs)">
+  </div>
+  <div class="menu-content">
+    <h3>Crispy Chicken Strips (5 pcs)</h3>
+    <p>Golden fried chicken strips served with dipping sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/chilidry-rice.jpg" alt="Chicken Dry Chili with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Dry Chili with Rice</h3>
+    <p>Stir-fried chicken in spicy chili sauce served with steamed rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/beef-chili-rice.jpg" alt="Beef Dry Chili with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Dry Chili with Rice</h3>
+    <p>Tender beef strips in hot chili sauce served with rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 30</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/chicken-manchurian.jpg" alt="Chicken Manchurian with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Manchurian with Rice</h3>
+    <p>Classic Indo-Chinese chicken in Manchurian sauce served with rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/cashew-chicken.jpg" alt="Chicken Cashew Nuts with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Cashew Nuts with Rice</h3>
+    <p>Chicken stir-fried with crunchy cashew nuts and vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/shezwan chicekn.png" alt="Shezwan Chicken with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Shezwan Chicken with Rice</h3>
+    <p>Spicy Schezwan-style chicken served with rice</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/oyster-rice.png" alt="Chicken Oyster Sauce with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Oyster Sauce with Rice</h3>
+    <p>Chicken stir-fried with oyster sauce and vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/pineapple.jpg" alt="Chicken Pineapple with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Pineapple with Rice</h3>
+    <p>Sweet and savory chicken with pineapple chunks</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/kungpao.png" alt="Kung Pao Chicken with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Kung Pao Chicken with Rice</h3>
+    <p>Spicy stir-fry with chicken, peanuts, and vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/chicken-chowmein.jpg" alt="Chicken Chowmein">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Chowmein</h3>
+    <p>Stir-fried noodles with chicken and fresh vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 15</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/beef-chow-mein.jpg" alt="Beef Chowmein">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Chowmein</h3>
+    <p>Stir-fried noodles with beef and vegetables in savory sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/chicken-fried-rice.jpg" alt="Chicken Fried Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Fried Rice</h3>
+    <p>Wok-tossed rice with chicken, egg, and vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 15</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/Egg-Fried-Rice.jpg" alt="Egg Fried Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Egg Fried Rice</h3>
+    <p>Classic fried rice with scrambled egg and vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/veg-fried-rice.jpg" alt="Vegetable Fried Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Vegetable Fried Rice</h3>
+    <p>Healthy fried rice with fresh vegetables and seasonings</p>
+    <div class="menu-footer">
+      <span class="price">SR 12</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/prawn-fried-rice.jpg" alt="Prawn Fried Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Prawn Fried Rice</h3>
+    <p>Flavorful fried rice with prawns, vegetables, and spices</p>
+    <div class="menu-footer">
+      <span class="price">SR 35</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/alfredo.jpg" alt="Chicken Alfredo Pasta">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Alfredo Pasta</h3>
+    <p>Creamy Alfredo pasta with grilled chicken and parmesan</p>
+    <div class="menu-footer">
+      <span class="price">Sr 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/mushroom-chick-pasta.jpg" alt="Mushroom Chicken Pasta">
+  </div>
+  <div class="menu-content">
+    <h3>Mushroom Chicken Pasta</h3>
+    <p>Pasta with tender chicken, mushrooms, and creamy sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 20</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/chili-garlic-pasta.png" alt="Chicken Chili Garlic Pasta">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Chili Garlic Pasta</h3>
+    <p>Spicy pasta with chicken, chili, and garlic sauce</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/lasagna-pasta.jpg" alt="Lasagna Pasta">
+  </div>
+  <div class="menu-content">
+    <h3>Lasagna Pasta</h3>
+    <p>Layered pasta with meat, sauce, and cheese</p>
+    <div class="menu-footer">
+      <span class="price">SR 30</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chinese">
+  <div class="menu-image">
+    <img src="./pics/Garlic-Parmesan-Chicken-Pasta.jpg" alt="Permezan Chicken Pasta">
+  </div>
+  <div class="menu-content">
+    <h3>Permezan Chicken Pasta</h3>
+    <p>Pasta topped with chicken and parmesan cheese</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Chicken Shashlik Gravy -->
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/shashlik-gravy.jpg" alt="Chicken Shashlik Gravy">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Shashlik</h3>
+    <p>Gravy version of classic chicken shashlik with vegetables</p>
+    <div class="menu-footer">
+      <span class="price">SR 25</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="chicken-curry">
+  <div class="menu-image">
+    <img src="./pics/chicken-shashlik-rice.jpg" alt="Chicken Shashlik with Rice">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Shashlik with Rice</h3>
+    <p>Marinated chicken skewers served with savory rice and tangy sauce.</p>
+    <div class="menu-footer">
+      <span class="price">SR 28</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Roll Items-->
+ <div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/chicken-chatni-malai-boti-roll.png" alt="Chicken Chatni Malai Boti Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Chatni Malai Boti Roll</h3>
+    <p>Tender malai boti wrapped in paratha with fresh green chutney</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/chicken-chatni-bihari-roll.jpg" alt="Chicken Chatni Bihari Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Chatni Bihari Roll</h3>
+    <p>Smoky Bihari-style chicken rolled with spicy green chutney</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/chicken-chatni-roll.jpg" alt="Chicken Chatni Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Chatni Roll</h3>
+    <p>Juicy chicken bites with tangy chutney wrapped in a soft paratha</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/chicken-reshmi-kabab-chatni-roll.jpg" alt="Chicken Reshmi Kabab Chatni Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Reshmi Kabab Chatni Roll</h3>
+    <p>Soft reshmi chicken kababs paired with refreshing chutney in paratha</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/beef-kabab-chatni-roll.png" alt="Beef Kabab Chatni Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Beef Kabab Chatni Roll</h3>
+    <p>Grilled beef kababs and fresh chutney wrapped in a crispy paratha</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="roll">
+  <div class="menu-image">
+    <img src="./pics/chicken-reshmi-kabab-roll.jpg" alt="Chicken Reshmi Kabab Roll">
+  </div>
+  <div class="menu-content">
+    <h3>Chicken Reshmi Kabab Roll</h3>
+    <p>Succulent reshmi kababs served in a warm paratha with sauces</p>
+    <div class="menu-footer">
+      <span class="price">SR 10</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Hot Drinks -->
+<div class="menu-item" data-category="hot-drinks">
+  <div class="menu-image">
+    <img src="./pics/green-tea.jpg" alt="Green Tea">
+  </div>
+  <div class="menu-content">
+    <h3>Green Tea</h3>
+    <p>Refreshing green tea brewed to perfection.</p>
+    <div class="menu-footer">
+      <span class="price">SR 1.5<br>SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="hot-drinks">
+  <div class="menu-image">
+    <img src="./pics/black-tea.jpeg" alt="Black Tea">
+  </div>
+  <div class="menu-content">
+    <h3>Black Tea</h3>
+    <p>Strong and aromatic black tea served hot.</p>
+    <div class="menu-footer">
+      <span class="price">SR 1.5<br>SR 2</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="hot-drinks">
+  <div class="menu-image">
+    <img src="./pics/milk-tea1.jpeg" alt="Milk Tea">
+  </div>
+  <div class="menu-content">
+    <h3>Milk Tea</h3>
+    <p>Classic tea brewed with milk for a smooth taste.</p>
+    <div class="menu-footer">
+      <span class="price">SR 2<br>SR 3</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="menu-item" data-category="hot-drinks">
+  <div class="menu-image">
+    <img src="./pics/kashmiri-tea.jpeg" alt="Kashmiri Tea">
+  </div>
+  <div class="menu-content">
+    <h3>Kashmiri Tea</h3>
+    <p>Delicate pink tea infused with cardamom and nuts.</p>
+    <div class="menu-footer">
+      <span class="price">SR 3<br>SR 4</span>
+      <a href="https://wa.me/966561783605" class="order-btn-small" target="_blank">Order Now</a>
+    </div>
+  </div>
+</div>
+            
+            </div>
+        </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery">
+  <h2 class="section-title">Our Gallery</h2>
+  <div class="gallery-content">
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Gents Area</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/gents1.jpg" alt="Gents Sitting Area">
+        <p>Spacious gents area designed for comfort and relaxation with elegant seating.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pics/gents2.jpg" alt="Gents Sitting Area">
+        <p>Well-lit and beautifully arranged seating area for groups of friends and gatherings.</p>
+      </div>
+    </div>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/gents3.jpg" alt="Gents Sitting Area">
+        <p>Modern seating with cozy arrangements, perfect for casual dining.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pics/gents4.jpg" alt="Gents Sitting Area">
+        <p>Comfortable sofas and neat décor to ensure a relaxing dining experience.</p>
+      </div>
+    </div>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/gents5.jpg" alt="Gents Sitting Area">
+        <p>Exclusive gents lounge for a peaceful and enjoyable time.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Family Hall</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/family1.jpg" alt="Family Hall">
+        <p>Spacious family seating with a warm and inviting atmosphere.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pics/family2.jpg" alt="Family Hall">
+        <p>Designed for comfort, privacy, and memorable dining moments with family.</p>
+      </div>
+    </div>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/family3.jpg" alt="Family Hall">
+        <p>Ample seating space for large families to enjoy their meals together.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pics/family4.jpg" alt="Family Hall">
+        <p>Bright and cozy ambiance, tailored for family gatherings.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Meeting Area</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/meeting.jpg" alt="Meeting Area">
+        <p>Professional and quiet meeting space designed for discussions and small groups.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Saudi Majlase View</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/saudi.jpg" alt="Saudi Majlase View">
+        <p>Traditional floor seating area inspired by Saudi majlis culture, providing comfort and style.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Restaurant Banner</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/photobanner.jpg" alt="Restaurant Banner">
+        <p>Elegant restaurant banner for guests to capture memorable photos and moments.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-group">
+    <h2 class="gallery-heading">Buffet Area</h2>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/buffet1.jpg" alt="Buffet Area">
+        <p>Spacious buffet area capable of hosting up to 90 guests comfortably.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pics/buffet2.jpg" alt="Buffet Area">
+        <p>Modern buffet setting with ample dining space and variety for all guests.</p>
+      </div>
+    </div>
+    <div class="gallery-row">
+      <div class="gallery-item">
+        <img src="pics/buffet3.jpg" alt="Buffet Area">
+        <p>Beautifully arranged buffet hall perfect for large gatherings and events.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Zouq Al-Khamis</h2>
+                    <p>Nestled in the heart of Khamis Mushait, our restaurant brings together the rich flavors of Pakistani, Arabic, and Asian cuisine. From sizzling kebabs to fragrant biryanis and hearty curries, every dish is made with authentic spices and fresh ingredients.</p>
+                    <p>With a warm, welcoming atmosphere and options for both indoor and outdoor dining, it’s the perfect spot for family gatherings, casual lunches, or festive dinners. Each meal is crafted to offer not just great taste, but a memorable dining experience.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>10+ Years Experience</h4>
+                                <p>Serving authentic Pakistani cuisine for over 10 years</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Made with Love</h4>
+                                <p>Traditional recipes prepared with passion</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h4>Fresh Ingredients</h4>
+                                <p>Only the finest and freshest ingredients used</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./pics/home-pic.jpeg" alt="Traditional Cooking">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for orders, inquiries, or feedback</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+966-561783605<br>+966-506737605</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p> javedmalik71@yahoo.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>Zouq Al-Khamis Restaurant<br>Rabea Abha Khamis Road,<br>Khamis Mushait-KSA, Karachi</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Hours</h4>
+                            <p>Opening Timing: 7:00 AM</p>
+                            <p>Closing Timing: 1 AM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="catering">Catering Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Location</h2>
+                <p>Visit us or get delivery to your location</p>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Find Us Here</h3>
+                    <div class="location-details">
+                        <div class="location-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Main Branch</h4>
+                                <p>Zouq Al-Khamis Restaurant Rabea Abha Khamis Road,<br>Khamis Mushait-KSA, Karachi</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>Parking</h4>
+                                <p>Free parking available<br>Easy access from main road</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <i class="fas fa-subway"></i>
+                            <div>
+                                <h4>Public Transport</h4>
+                                <p>Bus stop nearby<br>Taxi & ride services available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.9158523526567!2d42.68960387592407!3d18.30545597570838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15fb5749451903a3%3A0x47793ca0dedaae4b!2sZouq%20Al%20Khamees%20Restaurant!5e0!3m2!1sen!2s!4v1754629968488!5m2!1sen!2s" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+        <div class="delivery-zones">
+          <h1>Keeta Food Delivery</h1>
+          <p>Order your favorite meals from Zouq Al-Khamis through Keeta — quick, easy, and reliable delivery to your doorstep.</p>
+                
+          <a target="_blank" href="https://www.keeta-global.com/AE/en"><img src="./pics/keeta-upscaled.jpeg" alt="Keeta Food Delivery" class="delivery-img"></a>
+                
+          <p class="delivery-tagline"><em>Good food. Fast delivery. Always Keeta.</em></p>
+        </div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Zouq Al-Khamis</h3>
+                        <p>Asian & Arabic Cuisine</p>
+                    </div>
+                    <p>Discover a delicious fusion of Arabic and Asian cuisines, freshly prepared with the finest ingredients. From fragrant biryanis to savory kebabs, every dish is made to delight.</p>
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100054265956492&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/zouq_al_khm_bbq?igsh=MW5wdHFhZnUzMnk0OA=="><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/@bbq.restaurants?_t=ZS-8yhpRvEggye&_r=1"><i class="fab fa-tiktok"></i></a>
+                        <a target="_blank" href="https://wa.me/966561783605"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +966-561783605<br>+966-506737605</p>
+                        <p><i class="fas fa-envelope"></i> javedmalik71@yahoo.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Rabea Abha Khamis Road, Khamis Mushait-KSA, Karachi</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <div class="hours">
+                        <p>Restaurant Opening Timing: 7:00 AM</p>
+                        <p>Restaurant Closing Timing: 1 AM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zouq Al-Khamis. All rights reserved. | Designed with ❤️ for food lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
